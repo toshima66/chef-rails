@@ -1,0 +1,22 @@
+{
+  "automatic": {
+    "ipaddress": "vagrant"
+  },
+  "nginx":{
+    "application" : "chef_rails_template",
+    "port" : 80
+  },
+  "rbenv":{
+    "group_users": "root"
+  },
+  "mysql": {
+    "server_root_password": "test",
+    "server_repl_password": "test",
+    "server_debian_password": "test"
+  },
+  "run_list":[
+    "recipe[mysql::server]",
+    "recipe[nginx]",
+    "recipe[site_rbenv]"
+  ]
+}
