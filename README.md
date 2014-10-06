@@ -23,30 +23,31 @@ ssh vagrant
 各バージョン情報
 ```bash
 #OSX
- sw_vers -productVersion
+$ sw_vers -productVersion
 10.9.5
 
 #vagrant
- vagrant -v
+$ vagrant -v
 Vagrant 1.6.5
- vagrant box list
+$ vagrant box list
 ubuntu14.04 (virtualbox, 0)
 
 #ruby, chef
- ruby -v
+$ ruby -v
 ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin13]
- knife -v
+$ knife -v
 Chef: 11.16.0
- berks -v
+$ berks -v
 3.1.5
 ```
 
-## Usage
+## Getting Started
 おもむろに。
 ```
- git@github.com:toshima66/chef-rails.git
- berks
- knife solo cook vagrant
+$ git clone git@github.com:toshima66/chef-rails.git
+$ cd chef-rails
+$ berks
+$ knife solo cook vagrant
 ```
 
 -----
