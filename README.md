@@ -44,6 +44,7 @@ Chef: 11.16.0
 ## Usage
 おもむろに。
 ```
+ git@github.com:toshima66/chef-rails.git
  berks
  knife solo cook vagrant
 ```
