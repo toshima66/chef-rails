@@ -17,6 +17,7 @@
   "run_list":[
     "recipe[mysql::server]",
     "recipe[nginx]",
-    "recipe[site_rbenv]"
+    "recipe[site_rbenv]",
+    "recipe[nodejs]"
   ]
 }

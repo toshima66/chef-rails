@@ -13,7 +13,7 @@ rbenv_ruby "2.0.0-p481" do
   global true
 end
 
-%W{ bundler rbenv-rehash therubyracer pry rake }.each{|gem|
+%W{ bundler rbenv-rehash }.each{|gem|
   rbenv_gem gem do
     action :install
   end
