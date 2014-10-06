@@ -9,7 +9,6 @@ Railsのテンプレートも用意していますので、そちらとセット
 
 > [Railsテンプレート - toshima66/chef_rails_template](https://github.com/toshima66/chef_rails_template)
 
------
 
 ## Requirement
 Mac + Vagrantで使用できるように設定してあります。
@@ -50,7 +49,6 @@ $ berks
 $ knife solo cook vagrant
 ```
 
------
 
 ## Licence
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
